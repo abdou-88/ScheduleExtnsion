@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="ScheduleExtension"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="56834b16-dcab-474d-bcda-5098a17f00c3"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

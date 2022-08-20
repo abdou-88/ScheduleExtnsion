@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "schedule-extension",
+    "libraryId": "3321c091-2dec-4773-9a42-589f2f059e73",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ScheduleExtension",
+    "solutionShortDescription": "ScheduleExtension description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://centurylink.sharepoint.com/sites/ITSCatalentTeam/SitePages/Catalent-Schedule.aspx",
+      "customActions": {
+        "56834b16-dcab-474d-bcda-5098a17f00c3": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "scheduleExtension": {
+      "pageUrl": "https://centurylink.sharepoint.com/sites/ITSCatalentTeam/SitePages/Catalent-Schedule.aspx",
+      "customActions": {
+        "56834b16-dcab-474d-bcda-5098a17f00c3": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  },
+  "initialPage": "https://enter-your-SharePoint-site/_layouts/workbench.aspx"
+}
