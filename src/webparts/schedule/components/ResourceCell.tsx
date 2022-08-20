@@ -18,9 +18,13 @@ class ResourceCell extends React.PureComponent<IResCellProps> {
         <div className="name" style={{ background: color }}>
           <h2>{text}</h2>
         </div>
-        <div className="avatar">
-          <img style= {{height: '100%', width: '100%'}} alt="" src={avatar} />
-        </div>
+
+        <a href="#" className="avatar">
+          <img height="155" width="155" src={avatar} alt="Abi Avatar"></img>
+        </a>
+        <br />
+        <br />
+        <br />
         <div className="info" style={{ color }}>
           {email}
           <br />
