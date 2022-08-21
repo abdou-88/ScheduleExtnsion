@@ -20,7 +20,7 @@ class ResourceCell extends React.PureComponent<IResCellProps> {
         </div>
 
         <a href="#" className="avatar">
-          <img height="155" width="155" src={avatar} alt="Abi Avatar"></img>
+          <img height="155" width="155" src={avatar} alt="Abi Avatar"/>
         </a>
         <br />
         <br />
